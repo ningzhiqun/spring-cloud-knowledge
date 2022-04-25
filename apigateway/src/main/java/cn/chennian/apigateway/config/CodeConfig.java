@@ -1,4 +1,4 @@
-package cn.chennian.apigateway.routerconfig;
+package cn.chennian.apigateway.config;
 
 import org.springframework.cloud.gateway.route.RouteLocator;
 import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
