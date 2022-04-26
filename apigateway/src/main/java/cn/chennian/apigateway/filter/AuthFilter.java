@@ -14,6 +14,7 @@ import java.nio.Buffer;
 import java.util.Optional;
 
 /**
+ * 全局拦截
  * <p></p>
  *
  * @author ningchang

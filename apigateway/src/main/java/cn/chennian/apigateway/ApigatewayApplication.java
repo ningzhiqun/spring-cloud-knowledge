@@ -14,8 +14,6 @@ public class ApigatewayApplication {
 
     public static void main(String[] args) {
         ConfigurableApplicationContext applicationContext = SpringApplication.run(ApigatewayApplication.class, args);
-        String userName = applicationContext.getEnvironment().getProperty("user.age");
-        System.out.println(userName);
     }
 
 }
