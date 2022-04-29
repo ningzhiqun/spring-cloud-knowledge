@@ -1,10 +1,5 @@
 package cn.chennian.cloudgateway.filter;
 
-import com.alibaba.nacos.api.NacosFactory;
-import com.alibaba.nacos.api.config.ConfigService;
-import com.alibaba.nacos.api.config.listener.Listener;
-import com.alibaba.nacos.api.exception.NacosException;
-import com.google.common.collect.Lists;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
@@ -31,7 +26,7 @@ import java.util.concurrent.Executor;
  * @version 1.0
  * @date 2022-04-28 14:04
  */
-
+@Component
 public class GlobalAuthFilter implements GlobalFilter, Ordered {
 
     /**
