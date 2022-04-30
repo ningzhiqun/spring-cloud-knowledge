@@ -3,3 +3,4 @@
 
 # maven pom <scope> 导入通用版本依赖
 
+# sentinel 懒加载 请求后才会仪表盘上显示服务

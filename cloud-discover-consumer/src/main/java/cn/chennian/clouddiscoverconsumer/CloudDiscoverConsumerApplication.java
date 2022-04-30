@@ -27,6 +27,7 @@ public class CloudDiscoverConsumerApplication {
         return new RestTemplate();
     }
 
+//  负载方式
     @Bean
     @Scope(value = "prototype")
     public IRule loadBalanceRule() {
