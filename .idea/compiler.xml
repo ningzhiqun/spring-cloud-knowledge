@@ -6,12 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-discover-provider" />
         <module name="cloud-gateway" />
+        <module name="cloud-discover-consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-disconver-consumer" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-disconver-consumer" options="-parameters" />
+      <module name="cloud-discover-consumer" options="-parameters" />
+      <module name="cloud-discover-provider" options="-parameters" />
       <module name="cloud-gateway" options="-parameters" />
       <module name="springcloudknowledge" options="-parameters" />
     </option>
